@@ -1,0 +1,8 @@
+mini-bank-playwright
+│
+├── pages/           → store all page classes (locators & actions)
+├── tests/           → store test files (landing, login, dashboard)
+├── test-data/       → store credentials & test data
+├── screenshots/     → save screenshots from test runs
+├── playwright.config.js
+└── package.json
