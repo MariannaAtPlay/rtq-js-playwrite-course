@@ -3,3 +3,11 @@ export const URLs = {
   login: 'https://mini-bank.testamplify.com/login',
   dashboard: 'https://mini-bank.testamplify.com/dashboard'
 };
+
+export const credentials = {
+  valid: { email: 'testuser2@yopmail.com', password: 'Pass2005#' },
+  invalid: [
+    { email: 'wrong@minibank.com', password: 'invalid1' },
+    { email: 'fake@minibank.com', password: 'invalid2' }
+  ]
+};
