@@ -10,7 +10,6 @@ export class LandingPage {
     this.bottomGetStarted = page.getByRole('button', { name: 'Get Started' }).nth(1);
   }
 
-
   async goto() {
     await this.page.goto(URLs.landing);
   }
